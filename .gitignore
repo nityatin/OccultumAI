@@ -1,2 +1,21 @@
-# Created by venv; see https://docs.python.org/3/library/venv.html
-*
+# Python
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
+
+# Virtual environment
+venv/
+.env/
+
+# Vector database / generated indexes
+chroma/
+chroma_db/
+
+# OS files
+.DS_Store
+
+# IDE/editor configs
+.vscode/
+.idea/
